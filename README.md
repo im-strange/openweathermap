@@ -18,6 +18,7 @@ openweather = OpenWeatherMap(API_KEY, query)
 data = openweather.get_data()
 ```
 <br>
+
 > Replace with your own API key. `query` can be city name or `lat&long` object.
 <br> 
 
