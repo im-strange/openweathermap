@@ -2,6 +2,10 @@
 Python simple wrapper for OpenWeatherMap API
 <br> 
 
+Clone this repo and move the file into your working directory, or,
+copy and paste `pyowmp.py` from this repo.
+<br>
+
 ### Example usage
 ```py
 import requests
