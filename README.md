@@ -4,7 +4,6 @@ Python simple wrapper for OpenWeatherMap API
 
 > Clone this repo and move `pyowmp.py` into your working directory, or,
 just copy and paste `pyowmp.py` from this repo.
-<br>
 
 ### Example usage
 ```py
