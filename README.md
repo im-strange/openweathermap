@@ -2,8 +2,9 @@
 Python simple wrapper for OpenWeatherMap API
 <br><br> 
 
-> Clone this repo and move `pyowmp.py` into your working directory, or,
+Clone this repo and move `pyowmp.py` into your working directory, or,
 just copy and paste `pyowmp.py` from this repo.
+<br>
 
 ### Example usage
 ```py
@@ -16,6 +17,7 @@ openweather = OpenWeatherMap(API_KEY, query)
 
 data = openweather.get_data()
 ```
+> Replace with your own API key. `query` can be city name or `lat&long` object.
 <br> 
 
 If response is good, you will receive dictionary/json
