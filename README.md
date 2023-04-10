@@ -15,7 +15,8 @@ data = openweather.get_data()
 ```
 <br> 
 
-If response is good, you receive dict object
+If response is good, you will receive dictionary/json
+object, see below:
 ```json
 {
   "coord": {
@@ -59,5 +60,15 @@ If response is good, you receive dict object
   "id": 2643743,
   "name": "London",
   "cod": 200
+}
+```
+<br>
+
+If something wrong occurs, error
+message will be sent
+```json
+{
+  "cod": "404",
+  "message": "city not found"
 }
 ```
