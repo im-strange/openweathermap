@@ -22,7 +22,7 @@ data = openweather.get_data()
 > Replace with your own API key. `query` can be city name or `lat&long` object.
 <br> 
 
-If response is good, you will receive dictionary/json
+If the request is good, you will receive dictionary/json
 object. See below:
 ```json
 {
